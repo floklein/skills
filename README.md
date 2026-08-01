@@ -1,5 +1,7 @@
 # Agent Skills
 
+[![skills.sh](https://skills.sh/b/floklein/skills)](https://skills.sh/floklein/skills)
+
 Reusable agent skills for focused, repeatable work.
 
 ## Available skills
@@ -12,36 +14,17 @@ Draft, rewrite, critique, and generate variants of concise X posts. The skill tu
 
 ## Install
 
-From a published Git repository:
+Install the skill from GitHub:
 
 ```sh
-npx skills add <repository-url> --skill viral-tweet-writer
+npx skills add https://github.com/floklein/skills --skill viral-tweet-writer
 ```
 
-From a local clone:
+List the skills available from GitHub:
 
 ```sh
-npx skills add . --skill viral-tweet-writer
+npx skills add https://github.com/floklein/skills --list
 ```
-
-List the skills available in the repository:
-
-```sh
-npx skills add . --list
-```
-
-## Repository layout
-
-```text
-skills.sh.json
-skills/
-  viral-tweet-writer/
-    SKILL.md
-    agents/openai.yaml
-    references/
-```
-
-The standard `skills/<slug>/SKILL.md` layout supports discovery through the skills CLI. `skills.sh.json` controls grouping on the repository's skills.sh page, while `agents/openai.yaml` provides Codex interface metadata. Claude Code reads `SKILL.md` and its frontmatter directly, so it requires no parallel `agents/claude.yaml` file.
 
 ## License
 
