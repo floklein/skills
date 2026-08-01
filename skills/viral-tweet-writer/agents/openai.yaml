@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viral Tweet Writer"
+  short_description: "Write sharp, credible, repostable tweets"
+  default_prompt: "Use $viral-tweet-writer to turn this idea into one sharp, credible tweet."
