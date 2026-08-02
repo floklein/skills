@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viral TikTok Creator"
+  short_description: "Create retention-led, shareable TikToks"
+  default_prompt: "Use $viral-tiktok-creator to turn this idea into a retention-led TikTok script and shot plan."

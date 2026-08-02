@@ -12,12 +12,24 @@ Draft, rewrite, critique, and generate variants of concise X posts. The skill tu
 
 [Read the skill](skills/viral-tweet-writer/SKILL.md)
 
+### Viral TikTok Creator
+
+Create, rewrite, critique, and optimize TikTok videos for retention and transmission. The skill turns one focused premise into a recordable video using a `stop -> hold -> transmit` process.
+
+[Read the skill](skills/viral-tiktok-creator/SKILL.md)
+
 ## Install
 
 Install the skill from GitHub:
 
 ```sh
 npx skills add https://github.com/floklein/skills --skill viral-tweet-writer
+```
+
+Install the TikTok skill:
+
+```sh
+npx skills add https://github.com/floklein/skills --skill viral-tiktok-creator
 ```
 
 List the skills available from GitHub:
